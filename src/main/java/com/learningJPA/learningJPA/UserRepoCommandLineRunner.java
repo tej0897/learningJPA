@@ -30,7 +30,7 @@ public class UserRepoCommandLineRunner implements CommandLineRunner {
         log.info("List of all Users is: "+allUsers);
 
         Optional<User> userWithIdOne = userRepository.findById(1L);
-        log.info("User with the ID 1 : "+userWithIdOne);
+        log.info("User with the ID 1 : " + userWithIdOne);
 
     }
 }

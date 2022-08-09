@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public class User {
     @Id
     @GeneratedValue
-    private int id;
+    private long id;
     private String name;
     private String role;
 
@@ -25,7 +25,7 @@ public class User {
         this.role = role;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
